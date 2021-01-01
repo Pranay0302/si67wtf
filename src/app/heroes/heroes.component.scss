@@ -1,7 +1,8 @@
 /* HeroesComponent's private CSS styles */
 
 .heroes {
-    margin: 0 0 2em 0;
+    // float: inline-end;
+    margin: 0 0 5em 0;
     list-style-type: none;
     padding: 0;
     width: 15em;
@@ -25,12 +26,12 @@
 }
 
 .heroes li.selected {
-    background-color: #CFD8DC;
+    background-color: #607D8B;
     color: white;
 }
 
 .heroes li.selected:hover {
-    background-color: #BBD8DC;
+    background-color: darkgray;
     color: white;
 }
 
@@ -47,4 +48,8 @@
     height: 1.8em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
+}
+
+.heroes0 {
+    margin: 1em;
 }
